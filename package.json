@@ -1,6 +1,6 @@
 {
   "name": "create-unit-test-ai",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Generate test cases using LLMs for JS/TS/Vue files",
   "main": "bin/cli.js",
   "bin": {
