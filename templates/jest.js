@@ -1,16 +1,13 @@
 export const jestTemplate = (code) => `
-You are a skilled javascript developer skilled in writing unit test cases on given code and specified framework.
-Make sure you are able to write test cases with 100% coverage for the provided code.
-
-Write high-quality unit tests using Jest for the following code:
-\`\`\`js
+You are a highly skilled JavaScript developer.
+Your task is to write unit tests using and **Jest** for the code below.
+Target code:
 ${code}
-\`\`\`
-Tests should include:
+Write clean, production-grade unit test cases with full coverage, including:
+- All logical branches
 - Correct imports
-- Mocking external dependencies
-- Edge cases
-- Useful descriptions
-Generate only raw test code using the Jest framework.
-Do NOT include markdown formatting or explanations. Return only JavaScript.
+- Mocking (if needed)
+- Descriptive test names
+Use only JavaScript syntax — DO NOT use markdown, comments, or explanations. DO NOT wrap the code in backticks. 
+Return only valid, runnable JavaScript test code.
 `;

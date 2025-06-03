@@ -1,6 +1,6 @@
-export const VitestTemplate = (code) => `
+export const jasmineTemplate = (code) => `
 You are a highly skilled JavaScript developer.
-Your task is to write unit tests using **Vitest** for the code below.
+Your task is to write unit tests using **Jasmine** and **Karma** for the code below.
 Target code:
 ${code}
 Write clean, production-grade unit test cases with full coverage, including:
